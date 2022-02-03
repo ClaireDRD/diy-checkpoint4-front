@@ -1,0 +1,67 @@
+.Title {
+    background-image: url("../../assets/diy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 25vh;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.Welcome {
+    margin-left:5vw;
+    margin-right:5vw;
+    font-size:0.9rem;
+    margin-bottom:8vh;
+}
+
+.Link1{
+    margin-top:4vh;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+.Products-group{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    font-size:0.8rem;
+}
+
+.Household {
+    width : 10vh;
+    border-radius:100%;
+}
+
+.Beauty {
+    width : 10vh;
+    border-radius:100%;
+}
+
+.Knitting {
+    width : 10vh;
+    border-radius:100%;
+}
+
+.Sewing {
+    width : 10vh;
+    border-radius:100%;
+}
+
+
+
+h1 {
+    color: var(--primary-color);
+}
+
+h2 {
+    color: var(--primary-color);
+    margin-top:2vh;
+    margin-left: 5vw;
+    margin-bottom:2vh;
+}
